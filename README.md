@@ -2,11 +2,9 @@
 
 # 👋 Hello, World!
 
-</div>
+---
 
-<div>
-    
-## 💻 **Profile.rs**
+## 💻 **source_code.rs**
 
 ```rust
 #[derive(Debug, Clone)]
@@ -19,10 +17,8 @@ struct ArchitectProfile {
 
 #[derive(Debug, Clone)]
 enum Role {
-    /// ☢️ Nuclear Waste Developer
-    NuclearWasteDev,
-    /// 🏗️ Architecture Reserve
-    ArchitectReserve,
+    NuclearWasteDev,   // ☢️ Nuclear Waste Dev (Legacy)
+    ArchitectReserve,  // 🏗️ Architecture Reserve (Target)
 }
 
 #[derive(Debug, Clone)]
@@ -38,9 +34,9 @@ enum State {
 
 #[derive(Debug, Clone)]
 enum Strategy {
-    DDD,    // Domain-Driven Design
-    CQRS,   // Command Query Responsibility Segregation
-    EventSourcing,
+    DDD,           // Domain-Driven Design
+    CQRS,          // Command Query Responsibility Segregation
+    EventSourcing, // Event Sourcing
 }
 
 impl ArchitectProfile {
@@ -61,15 +57,15 @@ impl ArchitectProfile {
 
 ---
 
-## 🎨 **Tech Stack**
+## 🎨 **tech_palette.rgb**
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,java,python,vue,ts,vite,tauri,mysql,redis,docker,k8s,kubernetes,git,github,gitlab,linux,nginx,postgres,rabbitmq,grafana,prometheus&theme=dark&perline=8" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=rust,go,java,python,vue,ts,vite,tauri,mysql,postgres,redis,rabbitmq,docker,k8s,linux,nginx,git,grafana,prometheus&theme=dark&perline=10" alt="Tech Stack" />
 </p>
 
 ---
 
-## 🚧 **Refactor Roadmap**
+## 🚧 **refactor_roadmap.mmd**
 
 ```mermaid
 flowchart TD
@@ -81,83 +77,77 @@ flowchart TD
     
     subgraph IN_PROGRESS[🟡 In Progress]
         direction LR
-        C -->|Rust Type Safety| D[Microservice Core]
-        B -->|Go Concurrency| E[High-Performance Gateway]
-        A -->|Vue3 Composition API| F[Modular Frontend]
+        C -->|Rust Safety| D[Microservice Core]
+        B -->|Go Concurrency| E[High-Perf Gateway]
+        A -->|Composition API| F[Modular Frontend]
     end
     
     subgraph FUTURE[🟢 Planned]
         direction LR
-        D --> G[Event-Driven Architecture]
+        D --> G[Event-Driven Arch]
         E --> H[Service Mesh]
         F --> I[Micro Frontends]
     end
     
-    style LEGACY fill:#3a1c1c,stroke:#ff6b6b,stroke-width:3px,color:#fff
-    style IN_PROGRESS fill:#3a2c1c,stroke:#ffd166,stroke-width:3px,color:#fff
-    style FUTURE fill:#1c3a2c,stroke:#06d6a0,stroke-width:3px,color:#fff
+    style LEGACY fill:#2a1a1a,stroke:#ff5555,stroke-width:2px,color:#fff
+    style IN_PROGRESS fill:#2a2a1a,stroke:#ffcc55,stroke-width:2px,color:#fff
+    style FUTURE fill:#1a2a1a,stroke:#55ff55,stroke-width:2px,color:#fff
 ```
 
 ---
 
-## 📦 **Active Projects**
+## 📦 **project_manifest.json**
 
 | Project | Tech Stack | Status | Description |
 |---------|------------|--------|-------------|
-| **Bifrost CMS** | Rust • Go • gRPC • PostgreSQL | 🟢 Active | High-performance headless CMS with microservices |
-| **Web-Work** | Vue3 • TypeScript • Go • Gin | 🟡 Developing | Full-stack learning platform with algorithm visualization |
-| **Personal Blog** | Tauri • Vue3 • Rust | 🟢 Maintained | Cross-platform desktop blog application |
-| **Animal Husbandry** | Java • Spring Boot • MySQL | 🔵 Legacy | Intelligent livestock management system |
+| **Bifrost CMS** | Rust • Go • gRPC | 🟢 Active | High-performance headless CMS |
+| **Web-Work** | Vue3 • TS • Go | 🟡 Developing | Full-stack learning platform |
+| **Personal Blog** | Tauri • Vue3 • Rust | 🟢 Maintained | Cross-platform desktop blog |
+| **Animal Husbandry** | Java • Spring Boot | 🔵 Legacy | Livestock management system |
 
 ---
 
-## 📊 **GitHub Stats**
+## 📊 **git_stats.log**
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000">
-    <img src="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000" height="180" alt="GitHub Stats">
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=00000000&exclude_repo=GuLuGuLu3399.github.io">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=default&hide_border=true&langs_count=8&bg_color=00000000&exclude_repo=GuLuGuLu3399.github.io" height="180" alt="Top Languages">
-  </picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=00000000&exclude_repo=GuLuGuLu3399.github.io" height="150" alt="Top Languages" />
 </div>
 
 ---
 
-## 🎯 **Currently Focused On**
+## 🎯 **status_check.ini**
 
-- 🔭 **Architecting** Bifrost CMS (Microservices with Rust/Go)
-- 🌱 **Learning** Database internals & Distributed systems
-- 👯 **Looking to collaborate on** Open-source infrastructure projects
-- 💬 **Ask me about** Backend architecture, Rust, Go, Vue3
-- 📫 **How to reach me**: mailto:your-email@example.com | https://blog.example.com
-- ⚡ **Fun fact**: Can debug production issues at 3 AM without coffee
+<p align="center">
+🔭 <b>Architecting:</b> Bifrost CMS (Microservices with Rust/Go)<br/>
+🌱 <b>Learning:</b> Database internals & Distributed systems<br/>
+💬 <b>Ask me about:</b> Backend architecture, Rust, Go, Vue3<br/>
+⚡ <b>Fun fact:</b> Can debug production issues at 3 AM without coffee
+</p>
 
 ---
 
-## 📫 **Connect With Me**
+## 🌐 **Connect With Me**
 
 <p align="center">
-  <a href="https://github.com/GuLuGuLu3399" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://github.com/GuLuGuLu3399">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://twitter.com/yourusername" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  <a href="https://twitter.com/yourusername">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://www.linkedin.com/in/yourusername" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/yourusername">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://blog.example.com" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog" />
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
 ---
-<div>
+
 <p align="center">
   <i>"Code is written for humans to read, machines just happen to execute it."</i>
 </p>
+
 </div>
