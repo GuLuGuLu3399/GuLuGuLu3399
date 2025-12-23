@@ -2,7 +2,6 @@
 
 # `Hello, World!`
 
-<a href="[https://git.io/typing-svg](https://git.io/typing-svg)">
 <img src="[https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=333333&center=true&vCenter=true&width=600&lines=IMIS+%2F+SCAU+Nuclear+Waste+Developer;Refactoring+Shitcode+to+Architecture;Loading+Rust+Safety+Modules...;Vue3+%7C+Go+%7C+Java+%7C+Rust](https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DFira%2BCode%26weight%3D600%26size%3D24%26pause%3D1000%26color%3D333333%26center%3Dtrue%26vCenter%3Dtrue%26width%3D600%26lines%3DIMIS%2B%252F%2BSCAU%2BNuclear%2BWaste%2BDeveloper%3BRefactoring%2BShitcode%2Bto%2BArchitecture%3BLoading%2BRust%2BSafety%2BModules...%3BVue3%2B%257C%2BGo%2B%257C%2BJava%2B%257C%2BRust)" alt="Typing SVG" />
 </a>
 
