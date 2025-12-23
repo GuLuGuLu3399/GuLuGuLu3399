@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
   <h1>👋 Hello, World!</h1>
 
@@ -154,5 +153,3 @@
   <p align="center">
     <i>"代码是写给人看的，机器只是顺便执行"</i>
   </p>
-</div>
-```
