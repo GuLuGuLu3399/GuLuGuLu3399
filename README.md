@@ -3,8 +3,6 @@
 # `Hello, World!`
 
 <a href="[https://git.io/typing-svg](https://git.io/typing-svg)">
-<img src="[https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F74C00&center=true&vCenter=true&width=600&lines=IMIS+%2F+SCAU+Nuclear+Waste+Dev;Refactoring+Shitcode+to+Architecture;Vue3+%7C+Go+%7C+Java+%7C+Rust](https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DFira%2BCode%26weight%3D700%26size%3D28%26pause%3D1000%26color%3DF74C00%26center%3Dtrue%26vCenter%3Dtrue%26width%3D600%26lines%3DIMIS%2B%252F%2BSCAU%2BNuclear%2BWaste%2BDev%3BRefactoring%2BShitcode%2Bto%2BArchitecture%3BVue3%2B%257C%2BGo%2B%257C%2BJava%2B%257C%2BRust)" alt="Typing SVG" />
-</a>
 
 <a href="[https://www.hyh0209.cn](https://www.hyh0209.cn)">
 <img src="[https://img.shields.io/badge/BLOG-FF0000?style=for-the-badge&logo=hugo&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/BLOG-FF0000%3Fstyle%3Dfor-the-badge%26logo%3Dhugo%26logoColor%3Dwhite)" />
