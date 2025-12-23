@@ -1,5 +1,5 @@
 # 😈 华农 IMIS 核废料级程序员 · 架构师（预备役）
-## 👋 Hi, I'm HYH0309
+## 👋 Hi, I'm GuLuGuLu3399
 
 - 🎓 IMIS/SCAU
 - 🌱 正在学习/研究 全栈开发
@@ -10,19 +10,19 @@
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=HYH0309&show_icons=true&theme=fundamental" height="180" />
+      <img src="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=fundamental" height="180" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HYH0309&layout=compact&theme=fundamental" height="180"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=fundamental" height="180"/>
     </td>
   </tr>
 </table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HYH0309&theme=github-compact" height="180"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=GuLuGuLu3399&theme=github-compact" height="180"/>
 <br/>
-<img src="https://streak-stats.demolab.com?user=HYH0309&theme=fundamental&date_format=M%20j%5B%2C%20Y%5D" height="180"/>
+<img src="https://streak-stats.demolab.com?user=GuLuGuLu3399&theme=fundamental&date_format=M%20j%5B%2C%20Y%5D" height="180"/>
 <br/>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=HYH0309.HYH0309" alt="visitor badge"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=GuLuGuLu3399.GuLuGuLu3399" alt="visitor badge"/>
 
 </div>
 **擅长屎山代码重构 · 专业转化技术负债为架构经验 · 伪全栈开发（前后端一起崩但能修好）**
@@ -212,6 +212,6 @@ function calculateGPA() {
 > —— 华农IMIS跑路未遂者  
 
 [![重构援助](https://img.shields.io/badge/架构救援热线-Y2433936387@163.com-blue)](mailto:Y2433936387@163.com)
-[![精神赔偿](https://img.shields.io/badge/领取《屎山精神损失险》-点击办理-red)](https://github.com/HYH0309)
+[![精神赔偿](https://img.shields.io/badge/领取《屎山精神损失险》-点击办理-red)](https://github.com/GuLuGuLu3399)
 
 ```
