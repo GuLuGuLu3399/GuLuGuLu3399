@@ -1,155 +1,161 @@
 <div align="center">
-  <h1>👋 Hello, World!</h1>
 
-  <!-- 个人简介 -->
-  <h3>💻 <code>profile.rs</code></h3>
-  ```rust
-  #[derive(Debug, Clone)]
-  struct ArchitectProfile {
-      id: &'static str,
-      role: Role,
-      state: State,
-      mission: &'static str,
-  }
+# 👋 Hello, World!
 
-  #[derive(Debug, Clone)]
-  enum Role {
-      /// ☢️ 核废料工程师
-      NuclearWasteDev,
-      /// 🏗️ 架构师预备役
-      ArchitectReserve,
-  }
+---
 
-  #[derive(Debug, Clone)]
-  enum State {
-      Transmuting {
-          from: &'static str,
-          to: &'static str,
-          method: Strategy,
-      },
-      Refactoring,
-      Debugging,
-  }
+## 💻 **Profile.rs**
 
-  #[derive(Debug, Clone)]
-  enum Strategy {
-      DDD,    // 领域驱动设计
-      CQRS,   // 命令查询职责分离
-      EventSourcing, // 事件溯源
-  }
+```rust
+#[derive(Debug, Clone)]
+struct ArchitectProfile {
+    id: &'static str,
+    role: Role,
+    state: State,
+    mission: &'static str,
+}
 
-  impl ArchitectProfile {
-      fn new() -> Self {
-          ArchitectProfile {
-              id: "GuLuGuLu3399",
-              role: Role::ArchitectReserve,
-              state: State::Transmuting {
-                  from: "Spaghetti Code (Vue3/Java)",
-                  to: "Clean Architecture (Rust/Go)",
-                  method: Strategy::DDD,
-              },
-              mission: "在紫荆桥下写的 BUG，终将成为勋章",
-          }
-      }
-  }
+#[derive(Debug, Clone)]
+enum Role {
+    /// ☢️ Nuclear Waste Developer
+    NuclearWasteDev,
+    /// 🏗️ Architecture Reserve
+    ArchitectReserve,
+}
 
-  fn main() {
-      let me = ArchitectProfile::new();
-      println!("{:?}", me);
-  }
-  ```
+#[derive(Debug, Clone)]
+enum State {
+    Transmuting {
+        from: &'static str,
+        to: &'static str,
+        method: Strategy,
+    },
+    Refactoring,
+    Debugging,
+}
 
-  <!-- 技术栈 -->
-  <h3>🎨 <code>tech_stack.yml</code></h3>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=rust,go,java,python,vue,ts,vite,tauri,mysql,redis,docker,k8s&theme=dark&perline=6" alt="技术栈" />
-  </p>
+#[derive(Debug, Clone)]
+enum Strategy {
+    DDD,    // Domain-Driven Design
+    CQRS,   // Command Query Responsibility Segregation
+    EventSourcing,
+}
 
-  <!-- 重构路线图 -->
-  <h3>🚧 <code>refactor_roadmap.mmd</code></h3>
-  ```mermaid
-  graph LR
-      subgraph LEGACY [🔴 技术债务]
-          A[Vue3 组件地狱] --> B[Spring 单体应用]
-          B --> C[重启大法<br/>内存泄漏]
-      end
+impl ArchitectProfile {
+    fn new() -> Self {
+        ArchitectProfile {
+            id: "GuLuGuLu3399",
+            role: Role::ArchitectReserve,
+            state: State::Transmuting {
+                from: "Spaghetti Code (Vue3/Java)",
+                to: "Clean Architecture (Rust/Go)",
+                method: Strategy::DDD,
+            },
+            mission: "The bugs I wrote under the purple banyan tree will eventually become medals",
+        }
+    }
+}
+```
 
-      subgraph IN_PROGRESS [🟡 重构中]
-          C -->|Rust 类型安全| D[微服务核心]
-          B -->|Go 并发模型| E[高性能网关]
-          A -->|Vue3 组合式 API| F[模块化前端]
-      end
+---
 
-      subgraph FUTURE [🟢 规划中]
-          D --> G[事件驱动架构]
-          E --> H[服务网格]
-          F --> I[微前端架构]
-      end
+## 🎨 **Tech Stack**
 
-      style LEGACY fill:#3a1c1c,stroke:#ff6b6b,stroke-width:2px,color:#fff
-      style IN_PROGRESS fill:#3a2c1c,stroke:#ffd166,stroke-width:2px,color:#fff
-      style FUTURE fill:#1c3a2c,stroke:#06d6a0,stroke-width:2px,color:#fff
-  ```
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,go,java,python,vue,ts,vite,tauri,mysql,redis,docker,k8s,kubernetes,git,github,gitlab,linux,nginx,postgres,rabbitmq,grafana,prometheus&theme=dark&perline=8" alt="Tech Stack" />
+</p>
 
-  <!-- 项目展示 -->
-  <h3>📦 <code>projects.md</code></h3>
-  <table>
-    <thead>
-      <tr>
-        <th>项目</th>
-        <th>技术栈</th>
-        <th>状态</th>
-        <th>描述</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><b>Bifrost CMS</b></td>
-        <td>Rust • Go • gRPC</td>
-        <td>🟢 活跃开发</td>
-        <td>高性能无头内容管理系统</td>
-      </tr>
-      <tr>
-        <td><b>Animal Husbandry</b></td>
-        <td>Java • Spring Boot</td>
-        <td>🟡 维护中</td>
-        <td>畜牧业智能管理平台</td>
-      </tr>
-      <tr>
-        <td><b>Personal Blog</b></td>
-        <td>Gin • Tauri • Vue3</td>
-        <td>🟢 活跃</td>
-        <td>个人技术博客与知识库</td>
-      </tr>
-      <tr>
-        <td><b>Web-Work</b></td>
-        <td>Vue3 • TypeScript • Go</td>
-        <td>🟡 开发中</td>
-        <td>全栈学习与算法可视化平台</td>
-      </tr>
-    </tbody>
-  </table>
+---
 
-  <!-- GitHub 数据统计 -->
-  <h3>📊 <code>github_stats.json</code></h3>
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
-  </p>
+## 🚧 **Refactor Roadmap**
 
-  <!-- 联系信息 -->
-  <h3>📬 <code>contact_info.toml</code></h3>
-  ```toml
-  [contact]
-  email = "gulugulu3399@example.com"
-  github = "https://github.com/GuLuGuLu3399"
-  blog = "https://blog.example.com"
+```mermaid
+flowchart TD
+    subgraph LEGACY[🔴 Legacy Tech Debt]
+        direction LR
+        A[Vue3 Component Hell] --> B[Spring Monolith]
+        B --> C[Restart Magic<br/>Memory Leaks]
+    end
+    
+    subgraph IN_PROGRESS[🟡 In Progress]
+        direction LR
+        C -->|Rust Type Safety| D[Microservice Core]
+        B -->|Go Concurrency| E[High-Performance Gateway]
+        A -->|Vue3 Composition API| F[Modular Frontend]
+    end
+    
+    subgraph FUTURE[🟢 Planned]
+        direction LR
+        D --> G[Event-Driven Architecture]
+        E --> H[Service Mesh]
+        F --> I[Micro Frontends]
+    end
+    
+    style LEGACY fill:#3a1c1c,stroke:#ff6b6b,stroke-width:3px,color:#fff
+    style IN_PROGRESS fill:#3a2c1c,stroke:#ffd166,stroke-width:3px,color:#fff
+    style FUTURE fill:#1c3a2c,stroke:#06d6a0,stroke-width:3px,color:#fff
+```
 
-  [interests]
-  tech = ["分布式系统", "编译器设计", "数据库内核"]
-  hobbies = ["骑行", "摄影", "开源贡献"]
-  ```
+---
 
-  <p align="center">
-    <i>"代码是写给人看的，机器只是顺便执行"</i>
-  </p>
+## 📦 **Active Projects**
+
+| Project | Tech Stack | Status | Description |
+|---------|------------|--------|-------------|
+| **Bifrost CMS** | Rust • Go • gRPC • PostgreSQL | 🟢 Active | High-performance headless CMS with microservices |
+| **Web-Work** | Vue3 • TypeScript • Go • Gin | 🟡 Developing | Full-stack learning platform with algorithm visualization |
+| **Personal Blog** | Tauri • Vue3 • Rust | 🟢 Maintained | Cross-platform desktop blog application |
+| **Animal Husbandry** | Java • Spring Boot • MySQL | 🔵 Legacy | Intelligent livestock management system |
+
+---
+
+## 📊 **GitHub Stats**
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000">
+    <img src="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000" height="180" alt="GitHub Stats">
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=00000000&exclude_repo=GuLuGuLu3399.github.io">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=default&hide_border=true&langs_count=8&bg_color=00000000&exclude_repo=GuLuGuLu3399.github.io" height="180" alt="Top Languages">
+  </picture>
+</div>
+
+---
+
+## 🎯 **Currently Focused On**
+
+- 🔭 **Architecting** Bifrost CMS (Microservices with Rust/Go)
+- 🌱 **Learning** Database internals & Distributed systems
+- 👯 **Looking to collaborate on** Open-source infrastructure projects
+- 💬 **Ask me about** Backend architecture, Rust, Go, Vue3
+- 📫 **How to reach me**: mailto:your-email@example.com | https://blog.example.com
+- ⚡ **Fun fact**: Can debug production issues at 3 AM without coffee
+
+---
+
+## 📫 **Connect With Me**
+
+<p align="center">
+  <a href="https://github.com/GuLuGuLu3399" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://twitter.com/yourusername" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://blog.example.com" target="_blank">
+    <img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog" />
+  </a>
+</p>
+
+---
+<div>
+<p align="center">
+  <i>"Code is written for humans to read, machines just happen to execute it."</i>
+</p>
+</div>
