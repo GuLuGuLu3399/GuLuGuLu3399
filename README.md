@@ -2,146 +2,108 @@
 
 # `Hello, World!`
 
+<a href="[https://git.io/typing-svg](https://git.io/typing-svg)">
+<img src="[https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=F74C00&center=true&vCenter=true&width=600&lines=IMIS+%2F+SCAU+Nuclear+Waste+Dev;Refactoring+Shitcode+to+Architecture;Vue3+%7C+Go+%7C+Java+%7C+Rust](https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DFira%2BCode%26weight%3D700%26size%3D28%26pause%3D1000%26color%3DF74C00%26center%3Dtrue%26vCenter%3Dtrue%26width%3D600%26lines%3DIMIS%2B%252F%2BSCAU%2BNuclear%2BWaste%2BDev%3BRefactoring%2BShitcode%2Bto%2BArchitecture%3BVue3%2B%257C%2BGo%2B%257C%2BJava%2B%257C%2BRust)" alt="Typing SVG" />
 </a>
 
-<a href="[https://www.hyh0209.cn](https://www.google.com/search?q=https://www.hyh0209.cn)"><img src="[https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=hugo&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Blog-000000%3Fstyle%3Dfor-the-badge%26logo%3Dhugo%26logoColor%3Dwhite)" /></a>
-<a href="mailto:Y2433936387@163.com"><img src="[https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Email-000000%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite)" /></a>
-<a href="[https://github.com/GuLuGuLu3399](https://github.com/GuLuGuLu3399)"><img src="[https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Github-000000%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite)" /></a>
+<a href="[https://www.hyh0209.cn](https://www.hyh0209.cn)">
+<img src="[https://img.shields.io/badge/BLOG-FF0000?style=for-the-badge&logo=hugo&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/BLOG-FF0000%3Fstyle%3Dfor-the-badge%26logo%3Dhugo%26logoColor%3Dwhite)" />
+</a>
+<a href="mailto:Y2433936387@163.com">
+<img src="[https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=white)" />
+</a>
+<a href="[https://github.com/GuLuGuLu3399](https://github.com/GuLuGuLu3399)">
+<img src="[https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/GITHUB-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite)" />
+</a>
 
 </div>
 
-## 💻 `User.profile`
+<h3 align="center">💻 <code>source_code.rs</code></h3>
 
 ```rust
-// 😈 华农 IMIS 核废料级程序员 · 架构师（预备役）
+// 😈 核心身份定义：化技术负债为资产
 struct ArchitectProfile {
-    name: String,
-    university: String,
+    id: String,
     role: Role,
-    current_state: State,
-    motto: String,
+    state: State,
+    mission: String,
 }
 
 enum Role {
-    NuclearWasteDev,    // 核废料级程序员
-    RefactorSpecialist, // 屎山重构专家
-    ArchitectReserve,   // 架构师预备役
+    NuclearWasteDev,    // ☢️ 核废料制造者
+    ArchitectReserve,   // 🏗️ 架构师预备役
 }
 
 fn main() {
     let me = ArchitectProfile {
-        name: "GuLuGuLu3399".to_string(),
-        university: "IMIS / SCAU".to_string(),
+        id: "GuLuGuLu3399".to_string(),
         role: Role::ArchitectReserve,
         
-        // 正在将技术债务证券化...
-        current_state: State::Transmuting {
-            from: "Spaghetti Code (屎山)",
-            to: "Microservices (微服务)",
-            using: vec!["DDD", "Go (Orchestration)", "Rust (Compute)", "K8s"]
+        // 🚀 正在进行的熵减过程
+        state: State::Transmuting {
+            from: "Spaghetti Code (Vue3/Java)",
+            to: "Clean Architecture (Rust/Go)",
+            method: Strategy::DDD_CQRS
         },
         
-        motto: "在紫荆桥下写的 bug，终将成为架构师勋章".to_string(),
+        mission: "在紫荆桥下写的 BUG，终将成为勋章".to_string(),
     };
-
-    println!("Loading Architecture... {:?}% Complete", 3.14);
 }
 
 ```
 
-## 🛠️ `Tech.stack`
+<h3 align="center">🎨 <code>tech_palette.rgb</code></h3>
 
 <div align="center">
 
-**Core & Backend**
+<img src="[https://skillicons.dev/icons?i=rust,go,java,python&theme=dark](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Drust,go,java,python%26theme%3Ddark)" />
 
 
 
 
 
-<img src="[https://skillicons.dev/icons?i=go,rust,java,spring,python&perline=10](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dgo,rust,java,spring,python%26perline%3D10)" />
-
-**Frontend & Visual**
+<img src="[https://skillicons.dev/icons?i=vue,ts,vite,tauri&theme=dark](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dvue,ts,vite,tauri%26theme%3Ddark)" />
 
 
 
 
 
-<img src="[https://skillicons.dev/icons?i=vue,ts,vite,tailwind,tauri&perline=10](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dvue,ts,vite,tailwind,tauri%26perline%3D10)" />
-
-**Infra & Data**
-
-
-
-
-
-<img src="[https://skillicons.dev/icons?i=mysql,redis,docker,k8s,githubactions&perline=10](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dmysql,redis,docker,k8s,githubactions%26perline%3D10)" />
+<img src="[https://skillicons.dev/icons?i=mysql,redis,docker,k8s&theme=dark](https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dmysql,redis,docker,k8s%26theme%3Ddark)" />
 
 </div>
 
-## 🚧 `Refactor.roadmap`
+<h3 align="center">🚧 <code>refactor_graph.mmd</code></h3>
 
 ```mermaid
-%%{init: {'theme': 'neutral', 'themeVariables': { 'fontFamily': 'Fira Code' }}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ff0000', 'edgeLabelBackground':'#fff', 'tertiaryColor': '#fff'}}}%%
 graph LR
-    subgraph Legacy[🚧 现状: 制造屎山]
+    subgraph LEGACY [🔴 负债区 ]
         A(Vue3 组件地狱) --> B(SpringBoot CRUD)
-        B --> C{系统崩溃?}
-        C -->|Yes| D(重启大法)
-        C -->|No| E(继续堆屎)
+        B -.->|崩溃| C(重启大法)
     end
 
-    subgraph Future[🏗️ 目标: 架构重生]
-        D -.-> F[Rust 安全屋]
-        E -.-> G[Go/DDD 领域重构]
-        G --> H[云原生治理]
+    subgraph FUTURE [🟢 重构区 ]
+        C ==>|Rust 内存安全| D[微服务核心]
+        B ==>|Go 业务编排| E[高并发网关]
     end
 
-    style Legacy fill:#fff,stroke:#333,stroke-width:2px
-    style Future fill:#f9f9f9,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+    style LEGACY fill:#ffe6e6,stroke:#ff0000,stroke-width:2px
+    style FUTURE fill:#e6ffec,stroke:#00ff00,stroke-width:2px
 
 ```
 
-## 📦 `Project.manifest`
-
-> “从紫荆桥下的 bug 猎人，到架构师——我们终将把技术负债变成架构资本”
-
-| Project | Tech Stack | Status / Description |
-| --- | --- | --- |
-| **Bifrost CMS v3.2** | `Go`, `Rust`, `gRPC` | **Planning (Pure Edition)**<br>
-
-<br>采用 Go 处理业务编排，Rust 负责高性能计算 (Markdown/Index) 的模块化单体架构。 |
-| **Animal Husbandry System** | `Java`, `Spring Boot` | **Refactoring**<br>
-
-<br>广东省畜牧业生产数据管理系统。深度技术分析与文档化治理，消除祖传技术债。 |
-| **Personal Blog** | `Gin`, `Tauri`, `Vue3` | **Stable**<br>
-
-<br>跨端尝试，每次更新都是一次小型重构。 |
-| **IMISLab** | `Vue3`, `TS` | **Active**<br>
-
-<br>功能虽臃肿，但比以前的机器人项目更靠谱。 |
-
-<details>
-<summary><b>🧪 点击展开：技术毒物分析报告 (Legacy Data)</b></summary>
-
-
-
-
-| 毒物 | 毒性描述 | 解毒方案（架构师方向） |
-| --- | --- | --- |
-| **Vue3+TS** | 组件地狱深度患者 | `微前端架构` · `WebGL可视化` |
-| **SpringBoot** | 祖传CRUD战士 | `分布式事务` · `JVM调优` |
-| **Gin** | 高并发从入门到放弃 | `万级QPS优化` · `中间件生态` |
-| **Python** | import拯救世界 | `Flink实时计算` · `架构健康诊断` |
-| **Rust** | 编译器一生之敌 | `内存安全实战` · `异步编程` |
-
-</details>
-
----
+<h3 align="center">📦 <code>project_manifest.json</code></h3>
 
 <div align="center">
-<p align="center">
-<img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=graywhite&hide_border=true](https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DGuLuGuLu3399%26layout%3Dcompact%26theme%3Dgraywhite%26hide_border%3Dtrue)" height="140" />
-</p>
-<sub style="color: gray">Debug Success. System Halted.</sub>
+
+| PROJECT | TECH STACK | STATUS |
+| --- | --- | --- |
+| **Bifrost CMS v3.2** | `Go` `Rust` `gRPC` | <img src="[https://img.shields.io/badge/PLANNING-007EC6?style=for-the-badge](https://www.google.com/search?q=https://img.shields.io/badge/PLANNING-007EC6%3Fstyle%3Dfor-the-badge)" /> |
+| **Animal Husbandry** | `Java` `Spring Boot` | <img src="[https://img.shields.io/badge/REFACTORING-F74C00?style=for-the-badge](https://www.google.com/search?q=https://img.shields.io/badge/REFACTORING-F74C00%3Fstyle%3Dfor-the-badge)" /> |
+| **Personal Blog** | `Gin` `Tauri` `Vue3` | <img src="[https://img.shields.io/badge/STABLE-4FC08D?style=for-the-badge](https://www.google.com/search?q=https://img.shields.io/badge/STABLE-4FC08D%3Fstyle%3Dfor-the-badge)" /> |
+
+</div>
+
+<div align="center">
+<img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=tokyonight&hide_border=true&langs_count=6](https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DGuLuGuLu3399%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue%26langs_count%3D6)" height="140" />
 </div>
