@@ -94,10 +94,10 @@ flowchart TD
 
 | 项目 | 技术栈 | 定位 | 核心技术点 |
 |------|--------|------|------|
-| **Yuhaku (余白)** | Tauri • Rust • Vue3 | 🥇 跨平台端侧引擎 | `yuhaku://` 零拷贝协议, JNI 流式导入, 内存隔离 |
-| **Bifrost** | Go • Rust • Nuxt 4 | 🚀 微服务聚合平台 | Polyglot 架构 (Go+Rust), CQRS 落地, NATS 事件驱动 |
-| **Memory Stream** | Vue3 • Rust • WASM • Go | 🧠 知识图谱系统 | Rust→WASM 边缘渲染, WebSocket 实时协议, 有向图算法 |
-| **CodeForge** | Vue3 • Go • Judge0 | 🧱 复杂全栈基础设施 | OJ 判题沙箱隔离, 交互式算法可视化, 21个 Composable 架构 |
+| **Yuhaku (余白)** | Tauri v2 • Rust • Vue 3 | 🥇 跨平台端侧引擎 | `yuhaku://` 零拷贝协议, Android JNI 8KB 恒定内存流式导入, 进程级内存隔离 |
+| **Bifrost** | Go • Rust • Nuxt 4 | 🚀 多语言微服务聚合平台 | Polyglot 架构 (Go+Rust), CQRS + 事件溯源, Tantivy 全文搜索 P99 <50ms, gRPC 延迟 <10ms |
+| **Memory Stream** | Vue 3 • Rust • WASM • Go | 🧠 知识图谱系统 | Rust→WASM 图布局 <5ms, WebSocket 实时同步 <100ms, 千级节点星图渲染 |
+| **CodeForge** | Vue 3 • Go • Judge0 | 🧱 全栈在线学习平台 | OJ 沙箱隔离判题, 21 个 Composable 架构, 交互式算法可视化覆盖 30+ 题型 |
 
 ---
 
