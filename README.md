@@ -104,8 +104,8 @@ flowchart TD
 ## 📊 **GitHub 统计**
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=tokyonight" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=tokyonight" height="150" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GuLuGuLu3399&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000" height="150" alt="GitHub统计" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuLuGuLu3399&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=00000000&exclude_repo=GuLuGuLu3399.github.io" height="150" alt="主要语言" />
 </div>
 
 ---
